@@ -11,7 +11,7 @@ resource "aws_security_group" "access_ssh" {
     from_port = 22
     to_port = 22
     protocol = "tcp"
-    cidr_blocks = ["213.211.183.93/32"] #replace it with your ip address
+    cidr_blocks = ["213.211.183.93/32"] 
   }
 
   #Outgoing traffic
