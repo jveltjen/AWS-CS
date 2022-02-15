@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 
-resource "aws_security_group" "access_ssh" {
+resource "aws_security_group" "ssh-terraform" {
   name = "ssh-terraform"
 
   #Incoming traffic
