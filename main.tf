@@ -13,7 +13,7 @@ resource "aws_security_group" "ssh-terraform" {
     protocol = "tcp"
     cidr_blocks = ["213.211.183.93/32"] 
   }
-  ingress {
+  {
     from_port = 22
     to_port = 22
     protocol = "tcp"
